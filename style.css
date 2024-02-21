@@ -4,6 +4,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.36);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.5px);
+-webkit-backdrop-filter: blur(12.5px);
+border:2px solid rgba(255, 255, 255, 0.12);
 }
 
  img{
@@ -12,3 +19,25 @@
 }
 
 
+.name {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+  
+
+
+  html {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+  }
+  
+ 
