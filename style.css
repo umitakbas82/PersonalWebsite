@@ -10,7 +10,9 @@ background: rgba(255, 255, 255, 0.36);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(12.5px);
 -webkit-backdrop-filter: blur(12.5px);
-border:2px solid rgba(255, 255, 255, 0.12);
+/* border:1px solid rgba(255, 255, 255, 0.12); */
+border-bottom: #0ff;
+
 }
 
  img{
